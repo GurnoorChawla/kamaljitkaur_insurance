@@ -1,0 +1,42 @@
+# Dependency and setup reference for this Next.js (Node.js) project.
+# This is not a Python/pip requirements file.
+#
+# Prerequisites
+# - Node.js 20.9 or newer
+# - npm (included with Node.js)
+#
+# On a new device, from the project directory run:
+#   npm ci
+#   npm run dev
+#
+# To run checks:
+#   npm test
+#   npm run lint
+#   npm run build
+#
+# npm ci installs the exact dependency versions recorded in package-lock.json.
+# package.json and package-lock.json are the authoritative machine-readable
+# dependency manifests; this file is a portable human-readable overview.
+
+# Runtime dependencies
+@supabase/ssr ^0.6.1
+@supabase/supabase-js ^2.57.0
+class-variance-authority ^0.7.1
+clsx ^2.1.1
+lucide-react ^0.544.0
+next 16.0.0
+react 19.2.0
+react-dom 19.2.0
+tailwind-merge ^3.3.1
+zod ^4.1.11
+
+# Development and type-checking dependencies
+@tailwindcss/postcss ^4.1.13
+@types/node ^22.18.6
+@types/react ^19.2.0
+@types/react-dom ^19.2.0
+eslint ^9.36.0
+eslint-config-next 16.0.0
+tailwindcss ^4.1.13
+typescript ^5.9.2
+vitest ^3.2.4
